@@ -50,7 +50,7 @@ class PokemonApp(ctk.CTk):
             card.destroy()
         self.displayed_cards.clear()
 
-        API_key = "c99d1571-4f88-4659-8ac9-a764b139a948"
+        API_key = "Go get you own API key from https://docs.pokemontcg.io/ and then replace this string with your own key"
         base_url = "https://api.pokemontcg.io/v2/cards"
         headers = {"X-Api-Key": API_key}
         
